@@ -50,6 +50,20 @@ li{
     list-style-type: none;
 }
 
+a,
+li{
+    color: white;
+}
+
+footer .colore-back .colors ul div,
+footer .colore-back .center ul div,
+footer .colore-back .close-call,
+.arrow-up
+{
+    font-size: 12px;
+}
+
+
 /*
 ++++++++++
 typo header
@@ -124,14 +138,81 @@ typo footer
 */
 
 
-footer .magic-flex > div,
-footer .magic-flex div ul
-{
+footer{
+    background-color: #222222
+}
+
+nav{
+
     display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
 }
 
 
-footer .colore-back{
+.audio-video{
+    width: 15%;
+}
+
+.center{
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
+.close-call{
+    width: 10%;
+}
+
+
+
+footer .magic-flex > section,
+footer .magic-flex section ul
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+/* 
+footer nav .colore-back{
+    display: flex;
     justify-content: space-between;
-    background-color: gray;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+footer .magic-flex .colore-back div ul li i{
+    font-size: 20px;
+}
+
+
+.audio-video {
+    padding: 0 0 0 10px;
+}
+*/
+.close-call{
+    background-color: grey;
+    align-items: center;
+    padding: 30px;
+} 
+
+
+footer nav section.close-call a{
+    color: red;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+}
+
+
+.arrow-up{
+    margin-top: 10px;
+}
+
+.green{
+    background-color: #4bc800;
 }
