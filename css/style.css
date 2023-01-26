@@ -10,3 +10,40 @@
     box-sizing: border-box;
 }
 
+
+/*
+++++++++++
+Common
+++++++++++
+*/
+
+header{
+    height: 40px;
+}
+
+.magic-flex{
+    display: flex;
+}
+
+header .layout-video{
+    color: white;
+    font-size: 12px;
+    justify-content: flex-end;
+    vertical-align: middle;
+    
+}
+
+
+.back-text{
+    background-color: rgba(163,163,163,0.9);
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+
+
+body{
+    background-color: black;
+}
