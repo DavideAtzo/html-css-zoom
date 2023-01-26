@@ -31,9 +31,6 @@ body{
     
 }
 
-main{
-    width: calc(100vh - 110px);
-}
 
 footer{
     height: 80px;
@@ -77,7 +74,10 @@ typo main
 .container{
     margin: 0 auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px;
 }
 
 
