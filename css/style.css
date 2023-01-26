@@ -28,9 +28,16 @@ header{
 
 body{
     background-color: black;
+    
 }
 
+main{
+    width: calc(100vh - 110px);
+}
 
+footer{
+    height: 80px;
+}
 
 /*
 ++++++++++
@@ -64,4 +71,32 @@ header .layout-video{
 typo main
 ++++++++++
 */
+
+
+
+.container{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box{
+    height: 150px;
+    width: 250px;
+    position: relative;
+}
+
+
+
+
+.nick{
+    font-size: 12px;
+    background-color: rgba(180, 180, 180, 0.5);
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
