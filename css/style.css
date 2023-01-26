@@ -41,6 +41,15 @@ footer {
     height: 80px;
 }
 
+a{
+    text-decoration: none;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
 /*
 ++++++++++
 typo header
@@ -113,3 +122,16 @@ main {
 typo footer
 ++++++++++
 */
+
+
+footer .magic-flex > div,
+footer .magic-flex div ul
+{
+    display: flex;
+}
+
+
+footer .colore-back{
+    justify-content: space-between;
+    background-color: gray;
+}
