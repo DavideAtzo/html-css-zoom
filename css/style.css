@@ -25,6 +25,21 @@ header{
     display: flex;
 }
 
+
+body{
+    background-color: black;
+}
+
+
+
+/*
+++++++++++
+typo header
+++++++++++
+*/
+
+
+
 header .layout-video{
     color: white;
     font-size: 12px;
@@ -40,10 +55,13 @@ header .layout-video{
     border-radius: 3px;
     margin-top: 5px;
     margin-right: 5px;
+    padding: 3px;
 }
 
 
+/*
+++++++++++
+typo main
+++++++++++
+*/
 
-body{
-    background-color: black;
-}
