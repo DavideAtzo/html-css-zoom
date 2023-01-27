@@ -76,7 +76,8 @@ header .layout-video {
     color: white;
     font-size: 12px;
     justify-content: flex-end;
-    vertical-align: middle;
+    align-items: center;
+    height: 100%;
 
 }
 
@@ -88,6 +89,7 @@ header .layout-video {
     margin-top: 5px;
     margin-right: 5px;
     padding: 3px;
+    align-items: center;
 }
 
 
